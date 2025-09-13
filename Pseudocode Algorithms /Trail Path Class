@@ -1,0 +1,27 @@
+class Trail Path 
+    private points 
+    private maxLength
+    private currentLength 
+
+    public procedure(givenPoints, givenLength)
+        points = givenPoints 
+        currentLength = givenLength
+    end procedure
+
+    public procedure addPoint(position)
+        # placeholder function that will add a point to the array 
+        # of points within this class
+    end procedure
+    
+    public procedure getLastPoint()
+        # placeholder function that will return the id of the last point 
+        # in the array 
+    end procedure
+
+    public procedure deletePoint(lastPoint)
+        # placeholder function that will delete the last point in the array 
+        # in order to limit the size of the trail path
+    end procedure
+    
+    
+    

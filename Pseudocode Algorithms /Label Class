@@ -1,0 +1,13 @@
+class Label 
+    private Display 
+    private Position 
+
+    public procedure new(givenDisplay, initialPosition)
+        Display = givenDisplay 
+        Position = initalPosition 
+    end procedure 
+
+    public procedure updatePosition(planetPosition)
+        Position = planetPosition 
+        #may also choose to add an offset to this
+    end procedure 

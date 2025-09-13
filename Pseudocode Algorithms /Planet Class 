@@ -1,0 +1,47 @@
+class Planet 
+    private name 
+    private mass 
+    private position
+    private velocity 
+    private acceleration
+    private trailPath
+
+    public procedure new(givenName, givenMass, givenPosition, givenVelocity, givenAcceleration, givenTP)
+        name = givenName
+        mass = givenMass
+        position = givenPosition
+        velocity = givenVelocity
+        acceleration = 0
+        trailPath = givenTP
+    end procedure 
+
+    public procedure getRadius(mass)
+        radius = mass * k 
+        #k is a constant I haven't decided yet. 
+    end procedure 
+
+    public procedure distanceToPlanet(otherPlanet)
+        #use the equation distance = sqrt((x1-y1)^2 + (x2-y2)^2) to find the 
+        #distance between two planets 
+    end procedure 
+
+    public procedure applyGravitationalForce(otherPlanet)
+        #use the equation F = G*m1*m2/r^2 to find and apply the gravitational force 
+        #this will only have an effect on the acceleration
+    end procedure
+
+    public procedure calculateResultantForce()
+        #placeholder function 
+        #will use applyGravitationalForce() to calculate a resultant force
+    end procedure 
+
+    public procedure updateVelocity(acceleration)
+        #use the updated acceleration to change the velocity 
+    end procedure 
+
+    public procedure updatePosition(velocity)
+        #use the updaed velocity to change the positon
+    end procedure 
+
+
+

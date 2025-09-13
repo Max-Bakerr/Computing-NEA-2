@@ -1,0 +1,12 @@
+class TrailPathPoint
+    private id
+    private position
+    private neighbor 
+
+    public procedure new(givenID, givenPosition, givenNeighbor)
+        id = givenID
+        position = givenPosition
+        neighbor = givenNeighbor
+    end procedure 
+
+    

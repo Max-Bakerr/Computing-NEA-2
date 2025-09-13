@@ -1,0 +1,21 @@
+class Vertex 
+    private id 
+    private displacement 
+    private neighbors 
+
+    public procedure new(givenID, givenDisplacement, givenNeighbors)
+        id = givenID
+        displacement = givenDisplacement
+        neighbors = givenNeighbors 
+    end procedure 
+
+    public procedure getDistanceTo(planet)  
+        # this method will use the equation distance = sqrt((x1-y1)^2 + (x2-y2)^2)
+        # to calculate distanes to given planets
+    end procedure 
+
+    public procedure calculateDisplacement()
+        # placeholder method for calculating a vertex's displacement
+        # will be based on the proximity of planets 
+    end procedure 
+

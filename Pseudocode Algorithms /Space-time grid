@@ -1,0 +1,15 @@
+class SpaceTimeGrid
+    private dimensions 
+    private numberOfVertices 
+
+    public procedure new(givenDimensions, givenNoOfVertices)
+        dimensions = givenDimensions
+        numberOfVertices = givenNoOfVertices 
+    end procedure 
+
+    public procedure update()
+        # Logic to update the space-time grid
+        # This is a placeholder for the actual implementation
+    end procedure
+
+    
